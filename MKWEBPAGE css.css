@@ -1,0 +1,94 @@
+h1 {
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  font-family: "Times"
+}
+
+body {
+  background-color: orange;
+  color: black;
+  font-family: "Calibri";
+}
+
+h2 {
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-family: Arial;
+  color: #347682;
+}
+
+h2 a {
+  color: #347682;
+}
+
+p {
+  padding: 10px;
+  display: block;
+  line-height: 1.4;
+  text-align: justify;
+  border: solid 2px;
+  border-color: white;
+  margin: 20px 90px 20px 90px;
+  font-family: Arial;
+}
+#About {
+  color: purple;
+}
+h3 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: Arial;
+  color: #347682;
+}
+
+a {
+  text-align: center;
+  display: block;
+  color: green;
+  line-height: 1.7;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.behavioral_economics {
+  max-height: 100px;
+  text-align: right;
+  margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+    display: block;
+    width: 200px;
+    color: white;
+    text-align: right;
+    margin: 0 auto;
+    padding: 4px 0 6px 0;
+    text-decoration: none;
+}
+
+active {
+  background-color: navy;
+  color: green;
+}
+li a:hover {
+    background-color: #111;
+}
+
+@media (max-width: 480px){
+
+}
